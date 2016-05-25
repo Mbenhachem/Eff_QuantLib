@@ -42,8 +42,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\local\QuantLib-1.7\QuantLib-1.7;C:\local\boost_1_60_0;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\local\QuantLib-1.7\QuantLib-1.7\lib;C:\local\boost_1_60_0\lib32-msvc-10.0;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\EFFICIENCYCASA09\Desktop\Quantlib\QuantLib-1.7.1;C:\Users\EFFICIENCYCASA09\Desktop\Quantlib\boost_1_55_0;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\EFFICIENCYCASA09\Desktop\Quantlib\QuantLib-1.7.1\lib;C:\Users\EFFICIENCYCASA09\Desktop\Quantlib\boost_1_55_0\lib32-msvc-12.0;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
