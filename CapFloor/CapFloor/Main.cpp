@@ -8,8 +8,8 @@ int main(int, char* []) {
 	
     try {
 		//PrintVolatility();
-	TestSwaption();
-	//TestLmmCapFloor();
+	//TestSwaption();
+	TestLmmCapFloor();
 	//TestCapFloor();
 		//TestSwap();
 		/*std::string s;

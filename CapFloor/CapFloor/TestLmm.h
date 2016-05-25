@@ -520,14 +520,14 @@ void TestLmmCapFloor(){
 	while (Fin != 0) {
 		Inputparmeters(InstrumentType, Duration, strikes, vol, notional);
 		capfloorEfficiecy.nominals[0] = notional;
-		boost::shared_ptr<CapFloor> InstrumentEfficiency =
-			capfloorEfficiecy.TestCapletPricing(InstrumentType, strikes, Duration);
-/*
+	/*	boost::shared_ptr<CapFloor> InstrumentEfficiency =
+			capfloorEfficiecy.TestCapletPricing(InstrumentType, strikes, Duration);*/
+
 		boost::shared_ptr<Swaption> InstrumentEfficiency =
-			capfloorEfficiecy.TestSwaptionPricing(strikes, notional);*/
+			capfloorEfficiecy.TestSwaptionPricing(strikes, notional);
 		//Print rseults
 	//	PrintCashFlowSwapLMM(InstrumentEfficiency);
-		PrintResultCapFloor(strikes, capfloorEfficiecy.nominals[0], maturiDate, startDate, InstrumentEfficiency, InstrumentType, capfloorEfficiecy);
+		PrintResultSwaption(strikes, capfloorEfficiecy.nominals[0], maturiDate, startDate, InstrumentEfficiency, InstrumentType, capfloorEfficiecy);
 		
 		std::cin >> s;
 		try
