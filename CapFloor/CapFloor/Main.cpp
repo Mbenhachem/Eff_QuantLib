@@ -4,7 +4,6 @@
 #include "SwaptionEfficiency.hpp"
 #include "TestLmm.h"
 int main(int, char* []) {
-	std::cout << " Produits disponibles : Cap/Floor, Swaption  " <<std::endl;
 	
     try {
 		//PrintVolatility();
